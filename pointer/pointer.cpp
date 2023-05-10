@@ -14,8 +14,10 @@ void mahasiswa::showNim() { //implementasi method diluar class
 int main()
 {
 	mahasiswa mhs{ 1 }; //object mhs
-	mhs.showNim();	//member acces operator
+	mhs.showNim();	//member access operator
 
 	mahasiswa& ref = mhs; //Pointer Referenc refMhs
+	ref.nim = 2;		 //Member Access Operator
+	mhs.showNim();
 
 }
