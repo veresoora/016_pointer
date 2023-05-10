@@ -21,4 +21,8 @@ int main()
 	mhs.showNim();
 
 	mahasiswa* pMhs = &mhs;		//Pointer Reference refMhs
+	pMhs->nim = 3;				//arrow operator
+	mhs.showNim();
+	system("pause");
+	return 0;
 }
